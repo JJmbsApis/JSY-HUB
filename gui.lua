@@ -24,6 +24,7 @@ local Main_2 = Instance.new("TextButton")
 local Player_2 = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = true
 
 CoreNucleo.Name = "Core | Nucleo"
 CoreNucleo.Parent = ScreenGui
